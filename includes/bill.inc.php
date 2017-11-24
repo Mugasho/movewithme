@@ -29,7 +29,7 @@ if (isset($_POST['billno'], $_POST['skr'],$_POST['origin'], $_POST['destination'
         if (!$insert_stmt->execute()) {
             header('Location: ../admin/dashboard.php?err=Registration failure');
         } else {
-            header('Location: ../admin/airwaybill.php');
+            header('Location: ../admin/experiences.php');
         }
     }
 }
@@ -76,8 +76,8 @@ if(isset($_GET['bill'])){
        $result=$result.'<li class="media">
                         <div class="media-body">
                             <p class="lead mb-0"><a href="admin/billstatus.php?id='.$id.'"><span class="text-bold-600">'.$billNo.'</span> '.$origin.' '.$fromTo.' '.$destination.'</a></p>
-                            <p class="mb-0"><a href="admin/airwaybill.php" class="green darken-1">http://shumuklogistics.com/<span class="text-bold-600">admin</span>/airwaybill.php <i class="icon-caret-down" aria-hidden="true"></i></a></p>
-                            <p><span class="text-muted">'.date("d,M Y",strtotime($edd)).'- </span><span class="text-bold-600"> AirwayBill</span> Consignee is <span class="text-bold-600">'.$consignee.'</span> and cargo is to be delivered to '.$consignor.'. The destination address is set to '.$destination.'...</p>
+                            <p class="mb-0"><a href="admin/experiences.php" class="green darken-1">http://shumuklogistics.com/<span class="text-bold-600">admin</span>/experiences.php <i class="icon-caret-down" aria-hidden="true"></i></a></p>
+                            <p><span class="text-muted">'.date("d,M Y",strtotime($edd)).'- </span><span class="text-bold-600"> Group</span>  was created by  <span class="text-bold-600">'.$consignee.'</span> and is to travel to '.$destination.'.</p> <a href="admin/groupstatus.php?id='.$id.'" class="btn  btn-outline-indigo">Join Group</a>
                         </div>
                     </li>';
        endwhile;
@@ -94,7 +94,7 @@ if(isset($_GET['bill'])){
                         <div class="media-body">
                             <p class="lead mb-0"><a href="admin/billstatus.php?id='.$id.'"><span class="text-bold-600">'.$bol.'</span> '.$origin.' '.$fromTo.' '.$destination.'</a></p>
                             <p class="mb-0"><a href="admin/shipment.php" class="green darken-1">http://shumuklogistics.com/<span class="text-bold-600">admin</span>/shipment.php <i class="icon-caret-down" aria-hidden="true"></i></a></p>
-                            <p><span class="text-muted">'.date("d,M Y",strtotime($edd)).'- </span><span class="text-bold-600"> Bill of Lading</span> Consignee is <span class="text-bold-600">'.$consignee.'</span> and cargo is to be delivered to '.$consignor.'. The destination address is set to '.$destination.' Number of containers is '.$noOfcontainers.'...</p>
+                            <p><span class="text-muted">'.date("d,M Y",strtotime($edd)).'- </span><span class="text-bold-600"> Bill of Lading</span> This group <span class="text-bold-600">'.$consignor.'</span>This '.$consignor.'. is going to set off from '.$origin.' to  '.$noOfcontainers.' and has members</p>
                         </div>
                     </li>';
     endwhile;

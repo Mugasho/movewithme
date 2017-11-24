@@ -30,7 +30,7 @@ if(isset($_GET['bill'])){
         <div class="content-body"><!-- Search form-->
             <section id="search-website" class="card overflow-hidden">
                 <div class="card-header">
-                    <h4 class="card-title">Website search results</h4>
+                    <h4 class="card-title">Search for Attractions and Destinations</h4>
                     <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
                     <div class="heading-elements">
                         <ul class="list-inline mb-0">
@@ -54,16 +54,16 @@ if(isset($_GET['bill'])){
                     <div id="search-nav" class="card-block">
                         <ul class="nav nav-inline">
                             <li class="nav-item">
-                                <a class="nav-link active" href="search-website.html"><i class="icon-link4"></i> Website</a>
+                                <a class="nav-link active" href="search-website.html"><i class="icon-link4"></i> Everything</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="search-images.html"><i class="icon-image4"></i> Images</a>
+                                <a class="nav-link" href="search-images.html"><i class="icon-users2"></i> Groups</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="search-videos.html"><i class="icon-video2"></i> Videos</a>
+                                <a class="nav-link" href="search-videos.html"><i class="icon-map"></i> Destinations</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-map6"></i> Maps</a>
+                                <a class="nav-link" href="#"><i class="icon-bed"></i> Accomodation</a>
                             </li>
                             <li class="dropdown nav-item float-xs-right">
                                 <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
@@ -87,18 +87,18 @@ if(isset($_GET['bill'])){
                         <div class="col-lg-4">
                             <div class="card border-grey border-lighten-2">
                                 <div class="card-block">
-                                    <h4 class="card-title">Shumuk Logistics</h4>
-                                    <h6 class="card-subtitle text-muted">Cargo Tracking</h6>
+                                    <h4 class="card-title">Move With Me</h4>
+                                    <h6 class="card-subtitle text-muted">Tours and Travel</h6>
                                 </div>
-                                <img class="img-fluid" src="uploads/ship.jpg" alt="logo">
+                                <img class="img-fluid" src="uploads/tiger.jpg" alt="logo">
                                 <div class="card-block">
-                                    <p class="card-text">Get detailed visibility into shipping activity across your supply chain.<a href="#">Wikipedia</a></p>
+                                    <p class="card-text">Get detailed information about travel<a href="#">Wikipedia</a></p>
                                     <ul class="list-group">
-                                        <li class="list-group-item"><strong>Website :</strong> <a href="" class="card-link">https://shumuklogistics.com/</a></li>
+                                        <li class="list-group-item"><strong>Website :</strong> <a href="" class="card-link">https://movewithme.com/</a></li>
                                         <li class="list-group-item"><strong>Customer service :</strong>0701 311513</li>
-                                        <li class="list-group-item"><strong>Founder :</strong> SHUMUK LOGISTICS</li>
+                                        <li class="list-group-item"><strong>Founder :</strong> MOVE WITH ME</li>
                                         <li class="list-group-item"><strong>Founded :</strong> 2016</li>
-                                        <li class="list-group-item"><strong>Support:</strong> <a href="mailto:support@shumuklogistics.com">admin@shumuklogistics.com</a></li>
+                                        <li class="list-group-item"><strong>Support:</strong> <a href="mailto:support@shumuklogistics.com">admin@movewithme.com</a></li>
                                     </ul>
                                     <div class="py-1 text-xs-center">
                                         <a href="#" class="btn btn-social-icon mr-1 mb-1 btn-outline-facebook"><span class="icon-facebook3"></span></a>

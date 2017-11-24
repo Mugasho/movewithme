@@ -22,23 +22,23 @@
                             class="tag tag tag-primary tag-pill float-xs-right mr-2">2</span></a>
             </li>
             <li class=" nav-item"><a href="#"><i class="icon-plane"></i><span data-i18n="nav.page_layouts.main"
-                                                                              class="menu-title">Airwaybill</span></a>
+                                                                              class="menu-title">Experiences</span></a>
                 <ul class="menu-content">
-                    <li class="<?php activePage('Add bill', $page); ?>"><a href="../admin/addbill.php"
-                                                                           class="menu-item">Add Airwaybill</a>
+                    <li class="<?php activePage('Join a Group', $page); ?>"><a href="../admin/addbill.php"
+                                                                           class="menu-item">Create Travel Group</a>
                     </li>
-                    <li class="<?php activePage('Airway Bills', $page); ?>"><a href="../admin/airwaybill.php"
+                    <li class="<?php activePage('Destinations', $page); ?>"><a href="../admin/experiences.php"
                                                                                data-i18n="nav.page_layouts.2_columns"
-                                                                               class="menu-item ">Airwaybill List</a>
+                                                                               class="menu-item ">Experiences List</a>
                     </li>
-                    <li class="<?php activePage('Bill Status', $page); ?>"><a href="../admin/billstatus.php"
-                                                                              class="menu-item">Bill Status</a>
+                    <li class="<?php activePage('Bill Status', $page); ?>"><a href="../admin/groupstatus.php"
+                                                                              class="menu-item">Group Status</a>
                     </li>
 
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="icon-briefcase2"></i><span data-i18n="nav.project.main"
-                                                                                   class="menu-title">Shipment</span></a>
+            <li class=" nav-item"><a href="#"><i class="icon-users"></i><span data-i18n="nav.project.main"
+                                                                                   class="menu-title">Groups</span></a>
                 <ul class="menu-content">
                     <li class="<?php activePage('Add Shipment', $page); ?>"><a href="../admin/addshipment.php"
                                                                                class="menu-item">Add Shipment</a>
@@ -55,40 +55,7 @@
                     </li>
                 </ul>
             </li>
-            <li class=" nav-item"><a href="#"><i class="icon-stack-2"></i><span data-i18n="nav.cards.main"
-                                                                                class="menu-title">Modules</span></a>
-                <ul class="menu-content">
-                    <li><a href="card-bootstrap.html" data-i18n="nav.cards.card_bootstrap" class="menu-item">Bootstrap
-                            Cards</a>
-                    </li>
-                    <li><a href="card-actions.html" data-i18n="nav.cards.card_actions" class="menu-item">Card Action</a>
-                    </li>
-                </ul>
-            </li>
-            <li class=" nav-item"><a href="#"><i class="icon-whatshot"></i><span data-i18n="nav.advance_cards.main"
-                                                                                 class="menu-title">Utility</span></a>
-                <ul class="menu-content">
-                    <li><a href="card-statistics.html" data-i18n="nav.cards.card_statistics" class="menu-item">Statistics</a>
-                    </li>
-                    <li><a href="card-charts.html" data-i18n="nav.cards.card_charts" class="menu-item">Charts</a>
-                    </li>
-                </ul>
-            </li>
-            <li class=" nav-item"><a href="#"><i class="icon-compass3"></i><span data-i18n="nav.content.main"
-                                                                                 class="menu-title">Billing</span></a>
-                <ul class="menu-content">
-                    <li><a href="content-grid.html" data-i18n="nav.content.content_grid" class="menu-item">Grid</a>
-                    </li>
-                    <li><a href="content-typography.html" data-i18n="nav.content.content_typography" class="menu-item">Typography</a>
-                    </li>
-                    <li><a href="content-text-utilities.html" data-i18n="nav.content.content_text_utilities"
-                           class="menu-item">Text utilities</a>
-                    </li>
-                    <li><a href="content-helper-classes.html" data-i18n="nav.content.content_helper_classes"
-                           class="menu-item">Helper classes</a>
-                    </li>
-                </ul>
-            </li>
+
             <li class=" nav-item"><a href="#"><i class="icon-gear"></i><span data-i18n="nav.components.main"
                                                                              class="menu-title">Setup</span></a>
                 <ul class="menu-content">

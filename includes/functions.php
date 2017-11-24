@@ -250,7 +250,7 @@ function createTables($mysqli)
                     ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");
 
     //create prefixes table
-    $mysqli->query("CREATE TABLE IF NOT EXISTS billstatus (id int(11) NOT NULL AUTO_INCREMENT,
+    $mysqli->query("CREATE TABLE IF NOT EXISTS groupstatus (id int(11) NOT NULL AUTO_INCREMENT,
                     billno varchar(15) DEFAULT NULL,location varchar(60) DEFAULT NULL,status varchar(200) DEFAULT NULL,
                     status_date varchar(15), PRIMARY KEY (id)
                     ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");
@@ -261,7 +261,7 @@ function activePage($menu, $page)
     if ($menu == $page) echo " active";
 }
 
-function getBills($mysqli)
+function getDestinations($mysqli)
 {
     $prep_stmt = "SELECT * FROM bills";
     $stmt = $mysqli->prepare($prep_stmt);
@@ -284,7 +284,7 @@ function getBills($mysqli)
     while ($stmt->fetch()) {
         echo '<tr>
                                 <td>' . $id . '</td>
-                                <td><a href="../admin/billstatus.php?id='.$id.'" class="text-bold-600">' . $billNo . '</a>
+                                <td><a href="../admin/groupstatus.php?id='.$id.'" class="text-bold-600">' . $billNo . '</a>
                                 <p class="text-muted">From '.$origin.' to  '.$destination.'</p>
                                 </td>
                                 <td><span class="tag tag-default tag-success">In progress</span></td>
@@ -301,7 +301,7 @@ function getBills($mysqli)
 				                	<span class="dropdown">
 				                        <button id="btnSearchDrop20" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-primary dropdown-toggle dropdown-menu-right"><i class="icon-cog3"></i></button>
 				                        <span aria-labelledby="btnSearchDrop20" class="dropdown-menu mt-1 dropdown-menu-right">
-				                            <a href="../admin/billstatus.php?id='.$id.'" class="dropdown-item"><i class="icon-eye6"></i> Open Task</a>
+				                            <a href="../admin/groupstatus.php?id='.$id.'" class="dropdown-item"><i class="icon-eye6"></i> Open Task</a>
 				                            <a href="#" class="dropdown-item"><i class="icon-pen3"></i> Edit Task</a>
 				                            <a href="#" class="dropdown-item"><i class="icon-check2"></i> Complete Task</a>
 				                            <a href="#" class="dropdown-item"><i class="icon-outbox"></i> Assign to</a>
@@ -403,12 +403,12 @@ function getShipment($mysqli){
     }
 }
 
-function getBillStatus($mysqli,$billNo)
+function getGroupStatus($mysqli,$billNo)
 {
     if($billNo==null){
-        $prep_stmt = "SELECT * FROM billstatus";
+        $prep_stmt = "SELECT * FROM groupstatus";
     }else{
-        $prep_stmt = "SELECT * FROM billstatus WHERE billno=".$billNo;}
+        $prep_stmt = "SELECT * FROM groupstatus WHERE billno=".$billNo;}
 
     $stmt = $mysqli->prepare($prep_stmt);
     $stmt->execute();

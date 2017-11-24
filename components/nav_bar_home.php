@@ -17,7 +17,7 @@ if(isset($_SESSION['username'])){
         <div class="navbar-header">
             <ul class="nav navbar-nav">
                 <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="icon-menu5 font-large-1"></i></a></li>
-                <li class="nav-item"><a href="index.php" class="navbar-brand nav-link"><img alt="branding logo" src="app-assets/images/logo/logo.PNG" data-expand="app-assets/images/logo/logo.PNG" data-collapse="app-assets/images/logo/robust-logo-small.png" class="brand-logo"></a></li>
+                <li class="nav-item"><a href="index.php" class="navbar-brand nav-link"><img alt="branding logo" src="app-assets/images/logo/logo2.PNG" data-expand="app-assets/images/logo/logo.PNG" data-collapse="app-assets/images/logo/robust-logo-small.png" class="brand-logo"></a></li>
                 <li class="nav-item hidden-md-up float-xs-right"><a data-toggle="collapse" data-target="#navbar-mobile" class="nav-link open-navbar-container"><i class="icon-ellipsis pe-2x icon-icon-rotate-right-right"></i></a></li>
             </ul>
         </div>
@@ -27,36 +27,36 @@ if(isset($_SESSION['username'])){
                     <li class="nav-item hidden-sm-down"><a class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="icon-menu5"></i></a></li>
                     <li class="nav-item nav-search"><a href="search.php" class="nav-link nav-link-search fullscreen-search-btn"><i class="ficon icon-search7"></i></a></li>
                     <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-link-expand"><i class="ficon icon-expand2"></i></a></li>
-                    <li class="dropdown nav-item mega-dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link">SERVICES</a>
+                    <li class="dropdown nav-item mega-dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link">OUR SERVICES</a>
                         <ul class="mega-dropdown-menu dropdown-menu row">
                             <li class="col-md-2">
                                 <h6 class="dropdown-menu-header text-uppercase mb-1"><i class="icon-paper"></i> News</h6>
                                 <div id="mega-menu-carousel-example" class="responsive-slick">
-                                    <div><img src="uploads/truck-300.jpg" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mb-0">End-to-End Tracking</a>
+                                    <div><img src="uploads/truck-300.jpg" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mb-0">Trave cheaply </a>
                                         <p class="news-content"><span class="font-small-2">January 26, 2017</span></p>
                                     </div>
-                                    <div><img src="uploads/semi-300.jpg" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mt-1 mb-0">Track and Trace Tech</a>
+                                    <div><img src="uploads/semi-300.jpg" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mt-1 mb-0">Exciting ways to move</a>
                                         <p class="news-content"><span class="font-small-2">October 18, 2017</span></p>
                                     </div>
-                                    <div><img src="uploads/train-300.jpg" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mt-1 mb-0">Real Time cargo Tracking</a>
+                                    <div><img src="uploads/train-300.jpg" alt="First slide" class="rounded img-fluid mb-1"><a href="#" class="news-title mt-1 mb-0">Real Time chat</a>
                                         <p class="news-content"><span class="font-small-2">December 15, 2017</span></p>
                                     </div>
                                 </div>
                             </li>
                             <li class="col-md-3">
-                                <h6 class="dropdown-menu-header text-uppercase"><i class="icon-shuffle3"></i>Logistic Services</h6>
+                                <h6 class="dropdown-menu-header text-uppercase"><i class="icon-shuffle3"></i>Travel Services</h6>
                                 <ul class="drilldown-menu">
                                     <li class="menu-list">
                                         <ul>
-                                            <li><a href="layout-2-columns.html" class="dropdown-item"><i class="icon-plane"></i> AirwayBill Tracking</a></li>
-                                            <li><a href="#"><i class="icon-layers"></i>Logistics Directory</a>
+                                            <li><a href="layout-2-columns.html" class="dropdown-item"><i class="icon-map"></i> Attractions</a></li>
+                                            <li><a href="#"><i class="icon-layers"></i>Destinations</a>
                                                 <ul>
                                                     <li><a href="#" class="dropdown-item"><i class="icon-ship"></i>Shipping lines</a></li>
                                                     <li><a href="#" class="dropdown-item"><i class="icon-plane"></i>Airline Prefix</a></li>
                                                     <li><a href="#" class="dropdown-item"><i class="icon-box"></i>Container Prefix</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="color-palette-primary.html" class="dropdown-item"><i class="icon-truck"></i> Container Tracking</a></li>
+                                            <li><a href="color-palette-primary.html" class="dropdown-item"><i class="icon-truck"></i>Transportation</a></li>
                                             <li><a href="http://support.pixinvent.com/" class="dropdown-item"><i class="icon-tencent-weibo"></i> Customer support center</a></li>
                                         </ul>
                                     </li>
@@ -66,17 +66,17 @@ if(isset($_SESSION['username'])){
                                 <h6 class="dropdown-menu-header text-uppercase"><i class="icon-list2"></i>Services & Support</h6>
                                 <div id="accordionWrap" role="tablist" aria-multiselectable="true">
                                     <div class="card no-border box-shadow-0 collapse-icon accordion-icon-rotate">
-                                        <div id="headingOne" role="tab" class="card-header p-0 pb-1 no-border"><a data-toggle="collapse" data-parent="#accordionWrap" href="#accordionOne" aria-expanded="true" aria-controls="accordionOne" class="card-title">About ShumukLogistics</a></div>
+                                        <div id="headingOne" role="tab" class="card-header p-0 pb-1 no-border"><a data-toggle="collapse" data-parent="#accordionWrap" href="#accordionOne" aria-expanded="true" aria-controls="accordionOne" class="card-title">About Move with me</a></div>
                                         <div id="accordionOne" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" class="card-collapse collapse in">
                                             <div class="card-body">
-                                                <p class="accordion-text">Founded in August of 2016, Shumuk Logistics is a trusted search Engine for people to track goods around the world..</p>
+                                                <p class="accordion-text">Founded in August of 2016,Move with me is a trusted companion for your travels around the world..</p>
                                             </div>
                                         </div>
                                         <div id="headingTwo" role="tab" class="card-header p-0 pb-1 no-border"><a data-toggle="collapse" data-parent="#accordionWrap" href="#accordionTwo" aria-expanded="false" aria-controls="accordionTwo" class="card-title collapsed">Contact Us</a></div>
                                         <div id="accordionTwo" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" class="card-collapse collapse">
                                             <div class="card-body">
                                                 <p class="accordion-text"><i class="icon-phone"></i> Call Us: +256 (701) 311-513</p>
-                                                <p class="accordion-text"><i class="icon-envelope"></i>Email: admin@shumuklogistics.com</p>
+                                                <p class="accordion-text"><i class="icon-envelope"></i>Email: admin@movewithme.com</p>
                                             </div>
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@ if(isset($_SESSION['username'])){
                     <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span><span class="user-name"><?php echo $username;?></span></a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <?php if($username !='Login'){?>
-                                <a href="#" class="dropdown-item"><i class="icon-head"></i> Edit Profile</a>
+                                <a href="admin/" class="dropdown-item"><i class="icon-head"></i> Edit Profile</a>
                                 <a href="#" class="dropdown-item"><i class="icon-mail6"></i> My Inbox</a>
                                 <a href="#" class="dropdown-item"><i class="icon-clipboard2"></i> Task</a>
                                 <a href="#" class="dropdown-item"><i class="icon-calendar5"></i> Calender</a>

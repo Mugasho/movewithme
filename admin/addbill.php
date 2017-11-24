@@ -2,7 +2,7 @@
 require_once '../includes/db-connect.php';
 require_once '../includes/functions.php';
 sec_session_start();
-$page="Add bill";
+$page="Join a Group";
 ?>
 <!DOCTYPE html>
 <html lang="en" data-textdirection="ltr" class="loading">

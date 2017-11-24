@@ -54,8 +54,8 @@ createTables($mysqli);
                                     <div class="card-body">
                                         <div class="card-block">
                                             <img src="uploads/logistics2.png" alt="element 05" height="170" class="mb-1">
-                                            <h4 class="card-title">Track any Shipment Easily</h4>
-                                            <p class="card-text">Enter Tracking code</p>
+                                            <h4 class="card-title">Travel anywhere easily</h4>
+                                            <p class="card-text">Enter preference or destination</p>
                                         </div>
                                     </div>
                                 </div>
@@ -78,17 +78,22 @@ createTables($mysqli);
             </div>
         </div>
         <!-- project map based selling -->
-
+        <!--Activities-->
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title">Most popular Activitie</h4>
+            </div>
+        </div>
         <div class="row match-height">
             <div class="col-xl-4 col-md-6 col-sm-12">
                 <div class="card" style="height: 500px;">
                     <div class="card-body">
-                        <img class="card-img-top img-fluid" src="uploads/plane.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="uploads/kayak.jpg" alt="Card image cap">
                         <div class="card-block">
-                            <h4 class="card-title">Airwaybill Tracking</h4>
+                            <h4 class="card-title">Kayaking</h4>
                             <p class="card-text">
-                                Track any Airway bill number on a single click. Here’s the fastest way to check the status of your shipment. No need to call Customer Service </p>
-                            <a href="#" class="btn btn-outline-pink">Read More</a>
+                                Feel the adrenaline rush as you battle the rapids </p>
+                            <a href="#" class="btn btn-outline-pink">Go there</a>
                         </div>
                     </div>
                 </div>
@@ -96,12 +101,12 @@ createTables($mysqli);
             <div class="col-xl-4 col-md-6 col-sm-12">
                 <div class="card" style="height: 500px;">
                     <div class="card-body">
-                        <img class="card-img-top img-fluid" src="uploads/truck.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="uploads/skydive.jpg" alt="Card image cap">
                         <div class="card-block">
-                            <h4 class="card-title">Container Tracking</h4>
+                            <h4 class="card-title">Sky diving</h4>
                             <p class="card-text">
-                                To track the location of the container, just specify its number and shipping line.The results of your search will show the current container location.</p>
-                            <a href="#" class="btn btn-outline-pink">Read More</a>
+                               The breathtaking view of the world from above. </p>
+                            <a href="#" class="btn btn-outline-pink">Go there</a>
                         </div>
                     </div>
                 </div>
@@ -109,12 +114,58 @@ createTables($mysqli);
             <div class="col-xl-4 col-md-6 col-sm-12">
                 <div class="card" style="height: 500px;">
                     <div class="card-body">
-                        <img class="card-img-top img-fluid" src="uploads/ship.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="uploads/tiger.jpg" alt="Card image cap">
                         <div class="card-block">
-                            <h4 class="card-title">Sea Freight Tracking</h4>
+                            <h4 class="card-title">Wildlife</h4>
                             <p class="card-text">
-                                Get detailed visibility into shipping activity across your supply chain, with highly customisable views, notifications and reporting.</p>
-                            <a href="#" class="btn btn-outline-pink">Read More</a>
+                                Enjoy the diversity that nature has to offer</p>
+                            <a href="#" class="btn btn-outline-pink">Go there</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="card">
+    <div class="card-block">
+        <h4 class="card-title">Most popular tourist  destinations</h4>
+    </div>
+</div>
+        <div class="row match-height">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="card" style="height: 500px;">
+                    <div class="card-body">
+                        <img class="card-img-top img-fluid" src="uploads/australia.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Australia</h4>
+                            <p class="card-text">
+                                Good for People who like Art and modern design </p>
+                            <a href="#" class="btn btn-outline-pink">Go there</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="card" style="height: 500px;">
+                    <div class="card-body">
+                        <img class="card-img-top img-fluid" src="uploads/namibia.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Namibia</h4>
+                            <p class="card-text">
+                                Get scorched by the sun in the home of the Kalahari Desert.</p>
+                            <a href="#" class="btn btn-outline-pink">Go there</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="card" style="height: 500px;">
+                    <div class="card-body">
+                        <img class="card-img-top img-fluid" src="uploads/uganda.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Uganda</h4>
+                            <p class="card-text">
+                                The Pearl of africa. So much to see including the source of the nile</p>
+                            <a href="#" class="btn btn-outline-pink">Go there</a>
                         </div>
                     </div>
                 </div>
@@ -122,6 +173,7 @@ createTables($mysqli);
         </div>
     </div>
 </div>
+
 <!-- END Content-->
 
 
